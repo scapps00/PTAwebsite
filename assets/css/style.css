@@ -1,6 +1,7 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	background-image: url("../images/pow%20star/pow-star.png");
+	background-attachment: fixed;
 }
 
 #mustang {
@@ -32,9 +33,36 @@ h2 {
 	font-size: 17px;
 	border: #4100ff 5px solid;
 	padding: 6px;
+	text-align: center;
 }
 
 .d-block {
 	display: block;
 	margin: auto;
+}
+
+.copy {
+	text-align: center;
+	font-size: 15px;
+	color: #4100ff;
+}
+
+.col-3 {
+	padding-left: 50px;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+@media (max-width: 750px) {
+
+	h1 {
+		font-size: 35px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
 }
